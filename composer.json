@@ -1,0 +1,20 @@
+{
+    "name": "prety-php/framework",
+    "description": "The Pretty-PHP framework",
+    "keywords": ["framework", "pretty-php"],
+    "license": "MIT",
+    "homepage": "https://github.com/pretty-php/framework",
+    "support": {
+        "issues": "https://github.com/pretty-php/framework/issues",
+        "source": "https://github.com/pretty-php/framework"
+    },
+    "authors": [
+        {
+            "name": "Arthur Sena",
+            "email": "arthsena.m01@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    }
+}
