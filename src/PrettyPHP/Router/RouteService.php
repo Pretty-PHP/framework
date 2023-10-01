@@ -7,19 +7,15 @@ use PrettyPHP\Router\Route;
 
 class RouteService {
 	
-    private function loadRoutes() {
-        
-        /*
-         * List here all the route files you want to load.
-         */
-        require_once 'web.php';
+    public function loadRoutes(array $routeFiles = []) {
+        foreach ($routeFiles as $value) {
+            require_once $value;
+        }
     }
     
     public function __construct() {
         //require_once 'ViewProvider.php';
-        
-        $this->loadRoutes();
-        
+                
         $path = Route::currentPath();
         $method = $_SERVER['REQUEST_METHOD'];
 
