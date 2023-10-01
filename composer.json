@@ -20,8 +20,8 @@
         "php": "^8.1"
     },
     "autoload": {
-        "psr-0": {
-            "PrettyPhP": "src"
+        "psr-4": {
+            "PrettyPhP": "src/PrettyPHP"
         }
     }
 }
