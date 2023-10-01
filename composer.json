@@ -4,6 +4,7 @@
     "keywords": ["framework", "pretty-php"],
     "license": "MIT",
     "homepage": "https://github.com/pretty-php/framework",
+    "version": "1.0",
     "support": {
         "issues": "https://github.com/pretty-php/framework/issues",
         "source": "https://github.com/pretty-php/framework"
